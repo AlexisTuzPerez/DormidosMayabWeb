@@ -1,0 +1,90 @@
+
+
+
+body{
+    background-color: #222;
+}
+
+
+main{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+
+
+
+    width: 100vw;
+    
+    overflow-y: auto;
+
+
+}
+
+
+
+
+
+.respeto{
+
+  
+
+    color: white;
+
+    background-color: #222;
+
+
+    border: 1px solid white;
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+/* #carouselExampleAutoplaying {
+    max-width: 600px; 
+    max-height: 400px; 
+    margin: auto;
+  }
+  
+.carousel-inner img {
+    width: 100%;
+    height: auto;
+    max-height: 400px; 
+    object-fit: cover; 
+  } */
+  
+
+
+.cards{
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+
+    background-color: #222;
+    border: 1px solid white;
+
+    width: 90%;
+    height: auto;
+}
+
+
+.card{
+    color: white;
+    background-color: #222;
+
+    width: 30%; 
+    margin-bottom: 20px; 
+}
