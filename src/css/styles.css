@@ -1,90 +1,24 @@
-
-
-
-body{
-    background-color: #222;
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: #f8f9fa;
 }
-
-
-main{
-
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-
-
-
-
-    width: 100vw;
-    
-    overflow-y: auto;
-
-
+.navbar {
+    background-color: #3a3a3a !important;
 }
-
-
-
-
-
-.respeto{
-
-  
-
-    color: white;
-
-    background-color: #222;
-
-
-    border: 1px solid white;
-
-
-
-
-
-
-
-
-
-
+.navbar-brand, .nav-link {
+    color: #ffffff !important;
 }
-
-
-
-/* #carouselExampleAutoplaying {
-    max-width: 600px; 
-    max-height: 400px; 
-    margin: auto;
-  }
-  
-.carousel-inner img {
-    width: 100%;
-    height: auto;
-    max-height: 400px; 
-    object-fit: cover; 
-  } */
-  
-
-
-.cards{
-
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-
-
-    background-color: #222;
-    border: 1px solid white;
-
-    width: 90%;
-    height: auto;
+.carousel-item img {
+    height: 400px;
+    object-fit: cover;
 }
-
-
-.card{
-    color: white;
-    background-color: #222;
-
-    width: 30%; 
-    margin-bottom: 20px; 
+.card {
+    transition: transform 0.3s;
+    margin-bottom: 20px;
+}
+.card:hover {
+    transform: translateY(-5px);
+}
+.respeto {
+    background-color: #e9ecef;
 }
